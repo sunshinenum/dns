@@ -1,0 +1,57 @@
+accuracy = 0.9982035968058018
+weightedPrecision = 0.9982036363471145
+weightedRecall = 0.9982035968058018
+Learned classification tree model:
+DecisionTreeClassificationModel (uid=dtc_83c13673d173) of depth 5 with 35 nodes
+  If (feature 0 <= 4.564348191467836)
+   If (feature 0 <= 2.4849066497880004)
+    If (feature 0 <= 1.9459101490553132)
+     If (feature 0 <= 0.6931471805599453)
+      If (feature 3 <= 23.0)
+       Predict: 0.0
+      Else (feature 3 > 23.0)
+       Predict: 0.0
+     Else (feature 0 > 0.6931471805599453)
+      If (feature 3 <= 24.0)
+       Predict: 0.0
+      Else (feature 3 > 24.0)
+       Predict: 0.0
+    Else (feature 0 > 1.9459101490553132)
+     If (feature 3 <= 23.0)
+      If (feature 3 <= 19.0)
+       Predict: 0.0
+      Else (feature 3 > 19.0)
+       Predict: 0.0
+     Else (feature 3 > 23.0)
+      If (feature 3 <= 27.0)
+       Predict: 1.0
+      Else (feature 3 > 27.0)
+       Predict: 0.0
+   Else (feature 0 > 2.4849066497880004)
+    If (feature 3 <= 23.0)
+     If (feature 3 <= 17.0)
+      If (feature 4 <= 2.0)
+       Predict: 0.0
+      Else (feature 4 > 2.0)
+       Predict: 0.0
+     Else (feature 3 > 17.0)
+      If (feature 0 <= 3.8918202981106265)
+       Predict: 0.0
+      Else (feature 0 > 3.8918202981106265)
+       Predict: 0.0
+    Else (feature 3 > 23.0)
+     If (feature 4 <= 4.0)
+      If (feature 3 <= 27.0)
+       Predict: 1.0
+      Else (feature 3 > 27.0)
+       Predict: 0.0
+     Else (feature 4 > 4.0)
+      If (feature 4 <= 5.0)
+       Predict: 0.0
+      Else (feature 4 > 5.0)
+       Predict: 0.0
+  Else (feature 0 > 4.564348191467836)
+   If (feature 5 <= 0.0)
+    Predict: 0.0
+   Else (feature 5 > 0.0)
+    Predict: 1.0
