@@ -1,5 +1,5 @@
 # project description
-Detection and prevention of Water Torture DDoS in DNS with Machine Learning Method.
+Detection and suppression of Water Torture DDoS in DNS with Machine Learning Method.
 
 # requirements
 - ubuntu 16.04 x64
